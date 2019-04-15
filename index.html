@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> <!--Head Element Contains Metadate About HTML Document-->
+        <meta charset="UTF-8"> <!--Specifies The Character Encoding Of The HTML Document-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css"> <!--Links To An External Stylesheet, Points To Google Font Lato-->
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css"> <!--Links To An External Stylesheet, Points To IonIcons Open Source Icons-->
+        <link type="text/css" rel="stylesheet" href="style.css"> <!--Links To An External Stylesheet, Style.css In Current Project-->
+        
+        <title>Pig Dice Game</title> <!--Defines Title Of HTML Document-->
+    </head>
+
+    <body> <!--Defines The HTML Documents Body-->
+        <div class="wrapper clearfix"> <!--Div Tag Defines A Division Or Section In HTML Document--><!--Class Attribute Is Used To Define Equal Styles For Each Element In The Class-->
+            <div class="player-0-panel active"> <!--Active Selector Is Used To Select And Style Active Link, Current Player-->
+                <div class="player-name" id="name-0">Player 1</div> <!--Player 1 Attributes-->
+                <div class="player-score" id="score-0">43</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-0">11</div>
+                </div>
+            </div> <!--End Of Player 1 Attributes-->
+            
+            <div class="player-1-panel"> <!--Player 2 Attributes-->
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">72</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-1">0</div>
+                </div>
+            </div> <!--End Of Player 2 Attributes-->
+            
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button> <!--Adds Icons And Text For Classes, Icons From GoogleApi-->
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button> <!--Adds Icons And Text For Classes, Icons From GoogleApi-->
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button> <!--Adds Icons And Text For Classes, Icons From GoogleApi-->
+
+            <input type="text" placeholder="Final Score" class ="final-score"> <!--Input Box For User To Input Limit Of Game-->
+
+            <img src="dice-5.png" alt="Dice" class="dice" id="dice-1"> <!--Default Image And Source-->
+            <img src="dice-5.png" alt="Dice" class="dice" id="dice-2"> <!--Default Image And Source-->
+        </div> <!--End Of All Game Attributes, Including Both Players And Game Classes-->
+        
+        <script src="app.js"></script> <!--Includes Script Of Javascript 'app.js'-->
+
+    </body> <!--End Of Body-->
+</html> <!--End Of Document-->
