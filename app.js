@@ -17,7 +17,7 @@ Change the game to follow these rules:
 */
 /**
  * To Include In Snippets:
- * Callback Function Definition
+ * Callback Function Definition    
  * Anonymous Function Definition
  * Ternary Operator Definition
  * DOM Manipulation Definition
