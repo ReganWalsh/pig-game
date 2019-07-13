@@ -9,15 +9,6 @@ The first player to score 100 or more points wins.
 
 ## *What I Learned:*
 
-* Manipulate  
-* B
-* C
-* D
-* E
-* F
-* G
-* H
-* I
-* J
-
-## *What I Enjoyed About The Project:*
+* Manipulate HTML classes to add/remove attributes.
+* Manipulate HTML elements to add/remove display content and text content.
+* Using Event Listeners To Listen For Particular User Input, That Implements The Game
