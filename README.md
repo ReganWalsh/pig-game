@@ -10,6 +10,7 @@ The first player to score 100 or more points wins.
 ## *What I Learned:*
 
 * JavaScript syntax and structure.
+* Using JavaScript to interact with HTML and CSS properties.
 * Manipulate HTML classes to add/remove attributes (DOM Manipulation). 
 * Manipulate HTML elements to add/remove display content and text content (DOM Manipulation).
 * Using Event Listeners To Listen For Particular User Input, That Implements The Game
