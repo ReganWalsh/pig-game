@@ -1,5 +1,6 @@
-![forthebadge](https://img.shields.io/badge/first-draft-9cf.svg?style=for-the-badge)<br>
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+![forthebadge](https://img.shields.io/badge/made%20with-JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=white)<br>
+![forthebadge](https://img.shields.io/badge/made%20with-HTML5-EE4C2C.svg?style=for-the-badge&logo=HTML5&logoColor=white)<br>
+![forthebadge](https://img.shields.io/badge/made%20with-CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)<br>
 
 # *Pig*
 Based On [Pig Game](https://en.wikipedia.org/wiki/Pig_(dice_game)). Pig is a two-player dice game where during Each turn, a player rolls two dice until either player has rolled a 1 or the player decides to "hold" their current accrued points.
